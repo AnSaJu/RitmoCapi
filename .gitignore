@@ -1,0 +1,75 @@
+# .gitignore para proyectos de Unity
+# Basado en la plantilla oficial: https://github.com/github/gitignore/blob/main/Unity.gitignore
+# Copiar a la raíz de cada proyecto nuevo (junto a Assets, Packages y ProjectSettings)
+
+# Carpetas que Unity genera automáticamente
+.utmp/
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+*.log
+
+# MemoryCaptures y Recordings pueden ser muy pesados
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# Descomentar para ignorar el plugin Asset Store Tools
+# /[Aa]ssets/AssetStoreTools*
+
+# Plugin de JetBrains Rider generado automáticamente
+/[Aa]ssets/Plugins/Editor/JetBrains*
+
+# Caché de Visual Studio y Gradle
+.vs/
+.gradle/
+
+# Archivos de solución y proyecto que Unity genera automáticamente
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Meta de archivos generados
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Reportes de crash
+sysinfo.txt
+crashlytics-build.properties
+
+# Builds y paquetes
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+
+# Addressables empaquetados
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# Assets temporales de Android
+/[Aa]ssets/[Ss]treamingAssets/aa.meta
+/[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Sistema operativo
+Thumbs.db
+desktop.ini
+.DS_Store
